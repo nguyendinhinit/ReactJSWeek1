@@ -11,6 +11,7 @@ import React from "react";
 import Login from "../../pages/login/Login";
 import Profile from "../Profile/Profile";
 import Details from "../../pages/details/Details";
+import LoginFormPage from "../../pages/login/LoginFormPage";
 
 
 const Navbar = () => {
@@ -38,7 +39,7 @@ const Navbar = () => {
                     <Details/>
                 </Route>
                 <Route path={"/login"}>
-                    <Login/>
+                    <LoginFormPage/>
                 </Route>
                 <Route path={"/profile"}>
                     <Profile/>
