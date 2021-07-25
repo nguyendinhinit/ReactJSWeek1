@@ -16,27 +16,27 @@ const Header = () => {
                         <img src={logo} alt="" className={"position-relative w-auto logo"}/>
                     </div>
                     <div className={"col m-auto z1"}>
-                        <ul className={"nav"}>
+                        <ul className={"nav "}>
                             <li className={"nav-item"}>
-                                <Link className={"nav-link active"} to={"/homepage"}>HOME</Link>
+                                <Link className={"nav-link text-light active"} to={"/homepage"}>HOME</Link>
                             </li>
                             <li className={"nav-item"}>
-                                <Link className={"nav-link active"} to={"/about"}>ABOUT</Link>
+                                <Link className={"nav-link text-light active"} to={"/about"}>ABOUT</Link>
                             </li>
                             <li className={"nav-item"}>
-                                <Link className={"nav-link active"} to={"/posts"}>POST</Link>
+                                <Link className={"nav-link text-light  active"} to={"/posts"}>POST</Link>
                             </li>
                             <li className={"nav-item"}>
-                                <Link className={"nav-link active"} to={"/contact"}>CONTACT</Link>
+                                <Link className={"nav-link text-light active"} to={"/contact"}>CONTACT</Link>
                             </li>
                             {currentUser === ""
                                 ?
                                 <li className={"nav-item"}>
-                                    <Link to={"/login"} className={"nav-link active"}>LOGIN</Link>
+                                    <Link to={"/login"} className={"nav-link text-light active"}>LOGIN</Link>
                                 </li>
                                 :
                                 <li className={"nav-item"}>
-                                    <Link to={""} className={"nav-link active"} onClick={() => {
+                                    <Link to={""} className={"nav-link text-light active"} onClick={() => {
                                         setCurrentUser("")
                                     }}>LOGOUT</Link>
                                 </li>

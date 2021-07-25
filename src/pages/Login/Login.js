@@ -80,7 +80,6 @@ export default function SignIn() {
                 }
             })
     }
-    console.log(currentUser," current User from Login.js")
     return (
         <Container component="main" maxWidth="xs">
             <CssBaseline/>

@@ -47,8 +47,8 @@ const Posts = () => {
                                     <h5 className="mb-1">List group item heading</h5>
                                     <small>3 days ago</small>
                                 </div>
-                                <p className="mb-1">{post.description}.</p>
-                                <small>{post.content}.</small>
+                                <p className="mb-1">{post.title}.</p>
+                                <small>{post.description}.</small>
                                 <div className={"container-fluid m-0"}>
                                     <ThemeProvider theme={theme}>
                                         <Button className={"float-end"} variant={"contained"}
