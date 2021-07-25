@@ -1,0 +1,24 @@
+.logo{
+    z-index: 1;
+    height: 50px;
+}
+.bg {
+    background-position: left;
+    background-image: url("../../resources/bg-index.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+.overlay {
+    top: 0;
+    left: 0;
+    height: 600px;
+    width: 100%;
+    background-color: #212529;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+.z1{
+    z-index: 1;
+}
